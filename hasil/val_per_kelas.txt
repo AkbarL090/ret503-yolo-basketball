@@ -1,0 +1,4 @@
+Val (23 gambar, 56 instance), best.pt tiap eksperimen
+E1_pretrained (imgsz 416)  all P 0.947 R 1.000 mAP50 0.986 mAP50-95 0.663 | backboard 0.787 | ball 0.570 | rim 0.632 (mAP50-95)
+E3_imgsz640   (imgsz 640)  all P 0.938 R 1.000 mAP50 0.993 mAP50-95 0.700 | backboard 0.812 | ball 0.583 | rim 0.704 (mAP50-95)
+Waktu per gambar (T4, batch 1, warm-up, pre+inferensi+post): E1 11.2 ms (median 10.9) | E3 14.7 ms (median 14.1)

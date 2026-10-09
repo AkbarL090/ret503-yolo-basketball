@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pt
+*.pth
+*.onnx
+*.engine
+*.plan
+dataset_v1/
+.ipynb_checkpoints/
+.env
+*.zip

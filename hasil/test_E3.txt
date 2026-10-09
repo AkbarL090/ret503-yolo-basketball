@@ -1,0 +1,8 @@
+yolo detect val model=runs/detect/E3_imgsz640/weights/best.pt data=dataset_v1/data.yaml imgsz=640 split=test
+Ultralytics 8.4.174, Tesla T4, YOLO26n (fused): 120 layers, 2,375,421 parameters, 5.3 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)
+                   all         26         76       0.94      0.816      0.908      0.619
+             backboard         25         25      0.962          1      0.995      0.816
+                  ball         26         26      0.921      0.449      0.735        0.4
+                   rim         25         25      0.935          1      0.995       0.64
+Speed: 5.6ms preprocess, 16.1ms inference, 0.0ms loss, 2.0ms postprocess per image
